@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,17 +8,30 @@
     <link rel="styleheet" href="reset.css">
     <link rel="styleheet" href="style.css">
 </head>
+
 <body>
     <header class="cabeçalho">
         <div class="container">
-         <span class="cabeçalho__menu-hamburguer"></span>
-        <img src="img/Logo.svg" alt="Logo hevellynbooks">"
-    </div>
-    <div class="container">
-        <a href="a"><img src="img/Favoritos.svg" alt="Meus Favoritos" class="container__imagem"></a>
-        <a href="a"><img src="img/Compras.svg" alt="Carrinho de Compras" class="container__imagem"></a>
-        <a href="a"><img src="img/Usuario.svg" alt="Meu Perfil" class=""></a>
-    </div>
+            <input type="checkbox" id="menu" class="container__botao">
+            <label for="menu">
+                <span class="cabeçalho__menu-hamburguer"></span>
+            </label>
+            <ul class="lista-menu">
+                <li class="lista-menu__titulo">Categorias</li>
+                <li class="lista-menu__item"><a href="#" class="lista-menu__link">Programação</a></li>
+                <li class="lista-menu__item"><a href="#" class="lista-menu__link">Front-ends</a></li>
+                <li class="lista-menu__item"><a href="#" class="lista-menu__link">Infraestrutura</a></li>
+                <li class="lista-menu__item"><a href="#" class="lista-menu__link">Business</a></li>
+                
+            </ul>
+            <img src="img/Logo.svg" alt="Logo hevellynbooks">"
+        </div>
+        <div class="container">
+            <a href="a"><img src="img/Favoritos.svg" alt="Meus Favoritos" class="container__imagem"></a>
+            <a href="a"><img src="img/Compras.svg" alt="Carrinho de Compras" class="container__imagem"></a>
+            <a href="a"><img src="img/Usuario.svg" alt="Meu Perfil" class=""></a>
+        </div>
     </header>
 </body>
+
 </html>
