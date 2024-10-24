@@ -39,3 +39,7 @@
     padding: 1em;
     background-color: aliceblue;
 }
+
+.lista-menu__titulo{
+    color: orange;
+}
