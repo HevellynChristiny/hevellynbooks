@@ -43,3 +43,10 @@
 .lista-menu__titulo{
     color: orange;
 }
+
+.lista-menu__link{
+    background: cornflowerblue;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
