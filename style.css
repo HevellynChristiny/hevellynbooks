@@ -2,6 +2,7 @@
 @import url(styles/banner.css);
 :root{
     --cor-de-fundo: red;
+    --fonte-principal:"poppins";
 }
 
 .body{

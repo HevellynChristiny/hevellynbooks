@@ -27,7 +27,7 @@
 .lista-menu {
     display: none;
     position: absolute;
-    top: 100%;
+    top: 100px;
     width: 60vw;
 }
 
@@ -47,7 +47,7 @@
 }
 
 .lista-menu__link{
-    background: cornflowerblue;
+    background-color: cornflowerblue;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
